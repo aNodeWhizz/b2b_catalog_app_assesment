@@ -1,0 +1,20 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "extends": ["airbnb-base", "plugin:security/recommended", "prettier"],
+  "plugins": ["security"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "no-console": "off",
+    "func-names": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "security/detect-object-injection": "off",
+    "operator-linebreak ": "off",
+    "comma-dangle": "off"
+  }
+}
